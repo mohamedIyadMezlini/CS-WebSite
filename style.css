@@ -14,11 +14,7 @@ body{
 
 }
 
-h1{
-  color: #f5de7a;
-  font-size: 50px;
-  margin-bottom: 50px;
-}
+
 
 *{
   font-family: "Ubuntu";
@@ -37,14 +33,14 @@ nav{
   justify-content: space-between;
   flex-direction: row;
   color: #e08600;
-margin-top: 40px ;
-height: 76px;
-width: 1440px;
-background-color: #e1cc70;
-border-top-left-radius: 50PX;
-border-top-right-radius: 50PX;
-border-bottom-left-radius: 50px;
-border-bottom-right-radius: 50px;
+  margin-top: 40px ;
+  height: 76px;
+  width: 1440px;
+  background-color: #e1cc70;
+  border-top-left-radius: 50PX;
+  border-top-right-radius: 50PX;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 
@@ -145,13 +141,15 @@ li{
 
 
 
-#photo{
-  height: 200px;
+h1{
+  color: #f5de7a;
+  font-size: 50px;
+  margin-bottom: 50px;
 }
 
 
 
-.team{
+.team1{
   color: #f5de7a;
   width: 100%;
   gap: 100px;
@@ -160,15 +158,23 @@ li{
   margin-bottom: 100px;
 }
 
+
+
 .team2{
   color: #f5de7a;
   display: flex;
   flex-direction: row;
   gap: 100px;
 }
+
+
+
 footer{
   transform: translate3d(1rem, -0.5rem, 0);
 }
+
+
+
 figure{
   width: 190px;
   height: 254px;
@@ -178,43 +184,73 @@ figure{
   border-radius: 20px;
 }
 
+
+
+
 #oumayma{
   background-image: url("images/oumayma.jpg");
 }
+
+
+
 #anas{
   background-image: url("images/anas.jpg");
 }
+
+
+
 #israa{
   background-image: url("images/israa.jpg");
 }
+
+
+
 #iyad{
   background-image: url("images/iyad.jpg");
 }
+
+
+
 #wafa{
   background-image: url("images/wafa.jpg");
 }
+
+
+
 #alaa{
   background-image: url("images/alaa.png");
 }
+
+
+
 
 .example-2{
   transform: translate3d(-1rem, 0, 0);
   transition: all 0.3s ease-in-out;
   cursor: default;
 }
+
+
+
 .example-2:hover{
   cursor: default;
   transform: translate3d(0, 0, 0);
   transition: all 0.3s ease-in-out;
 }
 
+
+
 .crew{
   object-fit: cover;
 }
 
+
+
 figure{
   position: relative;
 }
+
+
 
 figcaption{
   height: 254px;
@@ -224,10 +260,16 @@ figcaption{
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
+
+
+
 figcaption:hover{
   opacity: 1;
   transition: all 0.3s ease-in-out;
 }
+
+
+
 figcaption::before{
   content: '';
   position: absolute;
@@ -239,26 +281,19 @@ figcaption::before{
 }
 
 
+
 .next{
   justify-content: center;
   align-content: center;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 ul {
   list-style: none;
+
 }
+
+
 
 .example-2 {
   height: 90%;
@@ -267,11 +302,17 @@ ul {
   align-items: left ;
   flex-direction: column;
 }
+
+
+
 .example-2 .icon-content {
   margin: 0 10px;
   position: relative;
   padding: 0.5rem;
 }
+
+
+
 .example-2 .icon-content .tooltip {
   position: absolute;
   top: 100%;
@@ -285,11 +326,17 @@ ul {
   font-size: 14px;
   transition: all 0.3s ease;
 }
+
+
+
 .example-2 .icon-content:hover .tooltip {
   opacity: 1;
   visibility: visible;
   top: -50px;
 }
+
+
+
 .example-2 .icon-content a {
   position: relative;
   overflow: hidden;
@@ -303,18 +350,30 @@ ul {
   background-color: #f0f0f0;
   transition: all 0.3s ease-in-out;
 }
+
+
+
 .example-2 .icon-content a:hover {
   box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
 }
+
+
+
 .example-2 .icon-content a svg {
   position: relative;
   z-index: 1;
   width: 20px;
   height: 20px;
 }
+
+
+
 .example-2 .icon-content a:hover {
   color: white;
 }
+
+
+
 .example-2 .icon-content a .filled {
   position: absolute;
   top: auto;
@@ -325,19 +384,29 @@ ul {
   background-color: black;
   transition: all 0.3s ease-in-out;
 }
+
+
+
 .example-2 .icon-content a:hover .filled {
   height: 100%;
 }
+
+
 
 .example-2 .icon-content a[data-social="linkedin"] .filled,
 .example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
   background-color: #0274b3;
 }
 
+
+
 .example-2 .icon-content a[data-social="facebook"] .filled,
 .example-2 .icon-content a[data-social="facebook"] ~ .tooltip {
   background-color: #039BE5;
 }
+
+
+
 .example-2 .icon-content a[data-social="instagram"] .filled,
 .example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
   background: linear-gradient(
@@ -350,6 +419,9 @@ ul {
     #fd1f1f
   );
 }
+
+
+
 .example-2 .icon-content a[data-social="youtube"] .filled,
 .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
   background-color: #ff0000;
